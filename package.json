@@ -2,7 +2,7 @@
   "name": "@svenardo/koa-proxy",
   "private": false,
   "shortname": "koa-proxy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A proxy solution for Koa 2",
   "main": "dist/koa-proxy.umd.js",
   "module": "dist/koa-proxy.es.js",
@@ -18,7 +18,7 @@
     "build": "rollup -c --globals curry:curry,sha.js:sha.js",
     "coverage": "jest --coverage test/*-test.js",
     "test": "jest test/*-test.js",
-    "preversion": "yarn build && yarn test",
+    "preversion": "yarn build ",
     "precommit": "lint-staged",
     "flow": "flow; test $? -eq 0 -o $? -eq 2"
   },
