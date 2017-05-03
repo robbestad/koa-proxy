@@ -2,12 +2,12 @@
 
 ## Installation
 
-Get it from npm with ```npm install --save koa3-proxy```
+Get it from npm with ```npm install --save @svenardo/koa-proxy```
 
 ## Testing 
 
 ```javascript
-const koaProxy = require('koa3-proxy');
+const koaProxy = require('@svenardo/koa-proxy');
 const Router = require('koa-router');
 const router = new Router();
 
