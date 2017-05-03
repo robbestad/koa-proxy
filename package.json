@@ -1,5 +1,6 @@
 {
   "name": "@svenardo/koa-proxy",
+  "private": false,
   "shortname": "koa-proxy",
   "version": "1.0.0",
   "description": "A proxy solution for Koa 2",
