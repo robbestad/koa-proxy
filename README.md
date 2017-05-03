@@ -1,4 +1,4 @@
-# Koa 3 Proxy
+# Koa 2 Proxy
 
 ## Installation
 
